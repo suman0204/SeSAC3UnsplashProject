@@ -1,0 +1,27 @@
+
+/* Class = "UINavigationItem"; title = "로그인"; ObjectID = "9mH-T9-7Zt"; */
+"9mH-T9-7Zt.title" = "Login";
+
+/* Class = "UITextField"; placeholder = "아이디를 입력해주세요"; ObjectID = "EZM-Tc-osL"; */
+"EZM-Tc-osL.placeholder" = "Enter ID";
+
+/* Class = "UITextField"; placeholder = "비밀번호를 입력해주세요"; ObjectID = "Jl2-9H-VYA"; */
+"Jl2-9H-VYA.placeholder" = "Enter Password";
+
+/* Class = "UIButton"; configuration.title = "로그인"; ObjectID = "VJ7-ng-pVh"; */
+"VJ7-ng-pVh.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VJ7-ng-pVh"; */
+"VJ7-ng-pVh.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "사진 검색"; ObjectID = "ZTZ-77-7BA"; */
+"ZTZ-77-7BA.title" = "사진 검색";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "cIl-Fv-tVb"; */
+"cIl-Fv-tVb.title" = "Item";
+
+/* Class = "UILabel"; text = "로그인 여부 확인"; ObjectID = "vyw-qD-tNb"; */
+"vyw-qD-tNb.text" = "로그인 여부 확인";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "w0r-rT-EaJ"; */
+"w0r-rT-EaJ.title" = "Item";
