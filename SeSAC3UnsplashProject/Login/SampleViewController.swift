@@ -7,12 +7,28 @@
 
 import UIKit
 
-struct User {
+class User: Hashable {
+    
+    static func == (lhs: User, rhs: User) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
     let name: String
     let age: Int
     
+    let id = UUID().uuidString //Unique. age, name이 같더라도 겹치지 않게해줌
+    
     var introduce: String {
         return  "\(name), \(age)살"
+    }
+    
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
     }
 }
 

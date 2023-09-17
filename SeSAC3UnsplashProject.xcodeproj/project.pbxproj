@@ -39,6 +39,7 @@
 		8B6CC3162AB296F4002FA6A0 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CC3152AB296F4002FA6A0 /* SimpleTableViewController.swift */; };
 		8B6CC3182AB2A015002FA6A0 /* SimpleColletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CC3172AB2A015002FA6A0 /* SimpleColletionViewController.swift */; };
 		8B6CC31B2AB2AA00002FA6A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8B6CC31A2AB2AA00002FA6A0 /* SnapKit */; };
+		8B6CC32F2AB7505A002FA6A0 /* FocusModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CC32E2AB7505A002FA6A0 /* FocusModeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		8B6CC3122AB20529002FA6A0 /* LottoObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoObservable.swift; sourceTree = "<group>"; };
 		8B6CC3152AB296F4002FA6A0 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		8B6CC3172AB2A015002FA6A0 /* SimpleColletionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleColletionViewController.swift; sourceTree = "<group>"; };
+		8B6CC32E2AB7505A002FA6A0 /* FocusModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusModeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		04DFE8692AAE990700F16E9D /* SeSAC3UnsplashProject */ = {
 			isa = PBXGroup;
 			children = (
+				8B6CC32D2AB74FC7002FA6A0 /* Day44 Assign */,
 				8B6CC3142AB296DC002FA6A0 /* New */,
 				8B6CC3062AB1FD35002FA6A0 /* Lotto */,
 				8B6CC2F82AB139BA002FA6A0 /* Caculate */,
@@ -190,6 +193,14 @@
 				8B6CC3172AB2A015002FA6A0 /* SimpleColletionViewController.swift */,
 			);
 			path = New;
+			sourceTree = "<group>";
+		};
+		8B6CC32D2AB74FC7002FA6A0 /* Day44 Assign */ = {
+			isa = PBXGroup;
+			children = (
+				8B6CC32E2AB7505A002FA6A0 /* FocusModeViewController.swift */,
+			);
+			path = "Day44 Assign";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +304,7 @@
 				8B6CC3132AB20529002FA6A0 /* LottoObservable.swift in Sources */,
 				047FE6B72AB0015400F5EDCB /* SampleViewModel.swift in Sources */,
 				8B6CC3182AB2A015002FA6A0 /* SimpleColletionViewController.swift in Sources */,
+				8B6CC32F2AB7505A002FA6A0 /* FocusModeViewController.swift in Sources */,
 				8B6CC2F72AB02DA1002FA6A0 /* PhotoViewModel.swift in Sources */,
 				8B6CC2FA2AB139DC002FA6A0 /* CaculateViewController.swift in Sources */,
 				047FE6B52AAFFDDE00F5EDCB /* SampleViewController.swift in Sources */,
