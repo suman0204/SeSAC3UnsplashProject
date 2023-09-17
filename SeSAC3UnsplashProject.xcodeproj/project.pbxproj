@@ -40,6 +40,7 @@
 		8B6CC3182AB2A015002FA6A0 /* SimpleColletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CC3172AB2A015002FA6A0 /* SimpleColletionViewController.swift */; };
 		8B6CC31B2AB2AA00002FA6A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8B6CC31A2AB2AA00002FA6A0 /* SnapKit */; };
 		8B6CC32F2AB7505A002FA6A0 /* FocusModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CC32E2AB7505A002FA6A0 /* FocusModeViewController.swift */; };
+		8B6CC3312AB75CF0002FA6A0 /* ModeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CC3302AB75CF0002FA6A0 /* ModeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		8B6CC3152AB296F4002FA6A0 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		8B6CC3172AB2A015002FA6A0 /* SimpleColletionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleColletionViewController.swift; sourceTree = "<group>"; };
 		8B6CC32E2AB7505A002FA6A0 /* FocusModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusModeViewController.swift; sourceTree = "<group>"; };
+		8B6CC3302AB75CF0002FA6A0 /* ModeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				8B6CC32E2AB7505A002FA6A0 /* FocusModeViewController.swift */,
+				8B6CC3302AB75CF0002FA6A0 /* ModeDetail.swift */,
 			);
 			path = "Day44 Assign";
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				04DFE86D2AAE990700F16E9D /* SceneDelegate.swift in Sources */,
 				8B6CC2ED2AB02A67002FA6A0 /* APIService.swift in Sources */,
 				8B6CC3082AB1FD50002FA6A0 /* LottoAPIService.swift in Sources */,
+				8B6CC3312AB75CF0002FA6A0 /* ModeDetail.swift in Sources */,
 				8B6CC2EF2AB02A6F002FA6A0 /* Photo.swift in Sources */,
 				8B6CC3132AB20529002FA6A0 /* LottoObservable.swift in Sources */,
 				047FE6B72AB0015400F5EDCB /* SampleViewModel.swift in Sources */,
