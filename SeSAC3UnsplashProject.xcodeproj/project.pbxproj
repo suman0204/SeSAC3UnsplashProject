@@ -41,6 +41,7 @@
 		8B6CC31B2AB2AA00002FA6A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8B6CC31A2AB2AA00002FA6A0 /* SnapKit */; };
 		8B6CC32F2AB7505A002FA6A0 /* FocusModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CC32E2AB7505A002FA6A0 /* FocusModeViewController.swift */; };
 		8B6CC3312AB75CF0002FA6A0 /* ModeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CC3302AB75CF0002FA6A0 /* ModeDetail.swift */; };
+		8BBD17852AB7D37600BA8921 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD17842AB7D37600BA8921 /* NumberViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		8B6CC3172AB2A015002FA6A0 /* SimpleColletionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleColletionViewController.swift; sourceTree = "<group>"; };
 		8B6CC32E2AB7505A002FA6A0 /* FocusModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusModeViewController.swift; sourceTree = "<group>"; };
 		8B6CC3302AB75CF0002FA6A0 /* ModeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeDetail.swift; sourceTree = "<group>"; };
+		8BBD17842AB7D37600BA8921 /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		047FE6AF2AAFED3C00F5EDCB /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				8BBD17812AB7D33900BA8921 /* Day45 */,
 				047FE6B02AAFED4F00F5EDCB /* LoginViewController.swift */,
 				047FE6B22AAFF2F200F5EDCB /* Observable.swift */,
 				047FE6B42AAFFDDE00F5EDCB /* SampleViewController.swift */,
@@ -206,6 +209,14 @@
 			path = "Day44 Assign";
 			sourceTree = "<group>";
 		};
+		8BBD17812AB7D33900BA8921 /* Day45 */ = {
+			isa = PBXGroup;
+			children = (
+				8BBD17842AB7D37600BA8921 /* NumberViewController.swift */,
+			);
+			path = Day45;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BBD17852AB7D37600BA8921 /* NumberViewController.swift in Sources */,
 				8B6CC2FC2AB13AA2002FA6A0 /* CaculateViewModel.swift in Sources */,
 				04DFE88C2AAEBAAF00F16E9D /* String+Extension.swift in Sources */,
 				8B6CC2FE2AB13DAE002FA6A0 /* CalcObsesrvable.swift in Sources */,
