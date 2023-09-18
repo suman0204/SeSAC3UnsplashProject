@@ -36,7 +36,7 @@ class SimpleColletionViewController: UIViewController {
             make.edges.equalToSuperview()
         }
         
-        configureDateSource()
+        configureDateSource() //snapshot 코드 보다 상단에 호출하지 않으면 nil값이 생긴다
         
         var snapshot = NSDiffableDataSourceSnapshot<String, User>() //스냅샷을 찍을 수 있게 해주는 구조체
         snapshot.appendSections(["고래밥", "Jack"]) //섹션  // Section.allCases = [first, second]
@@ -59,7 +59,6 @@ class SimpleColletionViewController: UIViewController {
     }
     
     private func configureDateSource() {
-        
 
         //UICollectionView.CellRegistraion: iOS 14 이상 부터 사용 가능한 셀 등록 방법, register 메서들 같은 메서드 대신 제네릭을 사용, 셀이 생성될 때 마다 클로저가 호출
         //밖에 선언되어 있던 cellRegistraton을 함수 안에서 선언해준다
